@@ -3,9 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="output.css" />
-    <script src="tmi.js"></script>
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="/styles/output.css" />
+    <script type="module" src="/scripts/app.js"></script>
   </head>
   <body class="m-16 bg-slate-950">
     <div
@@ -13,14 +12,14 @@
     >
       <h1 class="ml-1 font-bold">Spam Battle</h1>
       <div class="flex flex-row justify-center align-middle gap-2 items-center">
-        <div class="bg-slate-700 flex-grow py-1 px-2 rounded-lg">
-          <p id="player1-Name" class="italic">StreamElements</p>
-          <p id="player1-Score" class="text-4xl font-bold">0</p>
+        <div class="bg-slate-700 flex-grow py-1 px-2 rounded-lg w-[45%] min-w-[45%]">
+          <p id="player1-Name" class="italic"></p>
+          <p id="player1-Score" class="text-4xl font-bold"></p>
         </div>
         <p class="text-slate-500">VS</p>
-        <div class="bg-slate-700 flex-grow py-1 px-2 rounded-lg">
-          <p id="player2-Name" class="italic">Stoney_Eagle</p>
-          <p id="player2-Score" class="text-4xl font-bold">0</p>
+        <div class="bg-slate-700 flex-grow py-1 px-2 rounded-lg w-[45%] min-w-[45%]">
+          <p id="player2-Name" class="italic"></p>
+          <p id="player2-Score" class="text-4xl font-bold"></p>
         </div>
       </div>
     </div>

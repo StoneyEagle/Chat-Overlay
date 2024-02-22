@@ -2316,3 +2316,5 @@ var tmi = (() => {
   });
   return require_tmi();
 })();
+
+export default tmi;
